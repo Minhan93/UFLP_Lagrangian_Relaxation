@@ -1,0 +1,23 @@
+1.	Numerical_Exp.m: (Script File)
+Numerical Experiments, which include two examples (i.e. small scale and large scale). Solve these two numerical examples by applying Lagrangian Relaxation Algorithm of UFLP (UFLP-LR), UFL method of Matlog and Mixed Integer and Linea (MILP) Model via Gurobi solver.
+
+2.	run_UFLP_LR.m: (Script File, applied in Numerical_Exp.m)
+Run Lagrangian Relaxation Algorithm of UFLP.
+
+3.	UFLP_LR_Sub.m: (Function File, applied in run_UFL_LR.m)
+The Subproblem of UFLP Lagrangian Relaxation Algorithm.
+
+4.	UFLP_Feas.m: (Function File, applied in run_UFL_LR.m)
+The Feasible Solution Generated From UFLP-LR Subproblem Solution.
+
+5.	UFLP_Upda_Mult.m: (Function File, applied in run_UFL_LR.m)
+Update Lagrange multipliers by applying different Improved Gradient Descent method.
+
+6.	MILP_model_of_UFL.m: (Function File, applied in Numerical_Exp.m)
+Create MILP model of UFLP
+
+7.	data.mat: (Data File)
+The data of large scale numerical example.
+
+8.	Result_120s: (Data File)
+The result of large scale numerical example. (Stop time is 120 seconds)
